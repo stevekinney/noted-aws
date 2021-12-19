@@ -2,7 +2,6 @@
 
 - [00 - Introduction](content/00%20-%20Introduction.md)
 - [01 - The AWS Free Tier](content/01%20-%20The%20AWS%20Free%20Tier.md)
-- [01 - The AWS Free Tier](content/01%20-%20The%20AWS%20Free%20Tier.md)
 - [02 - Account Set Up](content/02%20-%20Account%20Set%20Up.md)
 - [03 - Billing](content/03%20-%20Billing.md)
 - [04 - IAM](content/04%20-%20IAM.md)
