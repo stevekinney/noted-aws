@@ -24,10 +24,7 @@ jobs:
         run: npm run build
       - name: Deploy to S3
         run: aws s3 sync ./build/ s3://superawesome.xyz --delete
-      - uses: awact/cloudfront-action@master
-        env:
-          SOURCE_PATH: '/*'
-          AWS_REGION: 'us-east-1'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
+      - name: Create CloudFront invalidation
+        run: aws cloudfront create-invalidation \
+          --distribution-id E2CSLLRWI54HQ4 \
+          --paths "*"
