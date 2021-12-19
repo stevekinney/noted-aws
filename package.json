@@ -13,9 +13,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"npm:dev\" \"npm:content:watch\"",
-    "content": "rimraf public/lessons && eleventy",
-    "content:watch": "npm run content -- --watch --quiet",
+    "start": "npm run dev",
     "dev": "react-scripts start",
     "build": "react-scripts build && npm run content",
     "test": "react-scripts test",

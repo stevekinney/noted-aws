@@ -7,13 +7,17 @@ function Application() {
   return (
     <main className="h-screen">
       <h1 className="text-3xl font-bold bg-indigo-300 p-4 border-b-2 border-indigo-400">
-        Hello world!
+        Incredibly Important Thoughts
       </h1>
       <div className="grid grid-cols-12 grid-rows-1 gap-4 h-full">
         <Navigation>
           <NavigationLink to="/">Home</NavigationLink>
-          <NavigationLink to="/notes/one">IAM</NavigationLink>
-          <NavigationLink to="/notes/two">Routing</NavigationLink>
+          <NavigationLink to="/notes/hipster">Hipster Ipsum</NavigationLink>
+          <NavigationLink to="/notes/zombie">Zombie Ipsum</NavigationLink>
+          <NavigationLink to="/notes/cupcake">Cupcake Ipsum</NavigationLink>
+          <NavigationLink to="/notes/cheese">Cheese Ipsum</NavigationLink>
+          <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
+          <NavigationLink to="/notes/office">Office Ipsum</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
