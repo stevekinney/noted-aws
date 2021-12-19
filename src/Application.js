@@ -12,12 +12,13 @@ function Application() {
       <div className="grid grid-cols-12 grid-rows-1 gap-4 h-full">
         <Navigation>
           <NavigationLink to="/">Home</NavigationLink>
-          <NavigationLink to="/one">IAM</NavigationLink>
-          <NavigationLink to="/two">Routing</NavigationLink>
+          <NavigationLink to="/notes/one">IAM</NavigationLink>
+          <NavigationLink to="/notes/two">Routing</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
-            <Route path="/:id" element={<Page />} />
+            <Route path="/notes/:id" element={<Page />} />
+            <Route path="/" element={<p>Select a note.</p>} />
           </Routes>
         </section>
       </div>
