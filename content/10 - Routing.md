@@ -1,7 +1,4 @@
----
-title: Routing
-layout: layouts/lesson.njk
----
+# Routing
 
 ## Fixing client-side routing
 

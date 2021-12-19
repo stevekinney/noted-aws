@@ -1,7 +1,4 @@
----
-title: Route 53
-layout: layouts/lesson.njk
----
+# Route 53
 
 Let's head over to the landing page for Route 53.
 

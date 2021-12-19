@@ -1,7 +1,4 @@
----
-title: Registering a Domain
-layout: layouts/lesson.njk
----
+# Registering a Domain
 
 - The is **totally optional**. If you don’t want to purchase a domain name, you’ll skip a few steps as we go along, but you’ll be able to come along.
 - We’re going to register a domain name now so that we know we have one that’s unique.

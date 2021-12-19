@@ -1,7 +1,4 @@
----
-title: CloudFront
-layout: layouts/lesson.njk
----
+# CloudFront
 
 As my friend, Steven, likes to say CloudFront puts the “eventual” in eventual consistency.
 

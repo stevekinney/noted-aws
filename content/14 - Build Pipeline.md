@@ -1,7 +1,4 @@
----
-title: Implementing a Build Pipeline
-layout: layouts/lesson.njk
----
+# Implementing a Build Pipeline
 
 ## Create a policy
 

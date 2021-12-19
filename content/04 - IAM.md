@@ -1,7 +1,4 @@
----
-title: IAM
-layout: layouts/lesson.njk
----
+# IAM
 
 IAM stands for **I**dentity **A**ccess and **M**anagement.
 

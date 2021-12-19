@@ -1,7 +1,4 @@
----
-title: Creating a Custom Cache Policy
-layout: layouts/lesson.njk
----
+# Creating a Custom Cache Policy
 
 Let's say that you want to have different caching settings for different types of files in your CloudFront distribution. That's totally something that you can do. By default, CloudFront is going to notice that you're using an S3 bucket and it'll set up some sensible defaults where it typically will cache assets for 24 hours.
 

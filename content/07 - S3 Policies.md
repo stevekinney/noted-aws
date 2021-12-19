@@ -1,7 +1,4 @@
----
-title: S3 Policies
-layout: layouts/lesson.njk
----
+# S3 Policies
 
 This is roughly what a policy looks like:
 

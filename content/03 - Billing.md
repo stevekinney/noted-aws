@@ -1,7 +1,4 @@
----
-title: Billing
-layout: layouts/lesson.njk
----
+# Billing
 
 Let's set up some structure to make sure we don't run up a big AWS tab.
 

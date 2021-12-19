@@ -1,7 +1,4 @@
----
-title: Using OAI
-layout: layouts/lesson.njk
----
+# Using OAI
 
 ## Origin Access Identity
 

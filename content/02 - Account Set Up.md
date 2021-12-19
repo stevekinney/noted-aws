@@ -1,7 +1,4 @@
----
-title: Account set up
-layout: layouts/lesson.njk
----
+# Account set up
 
 Signing up for an account is pretty much what you'd expect it to be.
 

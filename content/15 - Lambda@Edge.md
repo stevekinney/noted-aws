@@ -1,7 +1,4 @@
----
-title: Lambda@Edge
-layout: layouts/lesson.njk
----
+# Lambda@Edge
 
 ![lambda-at-edge.png](Attachments/lambda-at-edge.png)
 

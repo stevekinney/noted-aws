@@ -1,7 +1,4 @@
----
-title: The AWS CLI
-layout: layouts/lesson.njk
----
+# The AWS CLI
 
 You can get the AWS CLI [here](https://aws.amazon.com/cli/).
 

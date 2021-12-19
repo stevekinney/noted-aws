@@ -1,7 +1,4 @@
----
-title: The AWS free tier
-layout: layouts/lesson.njk
----
+# The AWS free tier
 
 - Let’s take a quick tour of the [free tier](https://aws.amazon.com/free/).
 - We’ll also set up billing notification warning us if we blow past the free tier.
