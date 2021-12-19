@@ -1,26 +1,27 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
+import { Navigation, NavigationLink } from './Navigation';
+import { Page } from './Page';
 
 function Application() {
   return (
-    <div className="grid grid-cols-12 grid-rows-2">
-      <h1 className="text-3xl font-bold bg-red-300 col-span-12">
+    <main className="h-screen">
+      <h1 className="text-3xl font-bold bg-indigo-300 p-4 border-b-2 border-indigo-400">
         Hello world!
       </h1>
-      <nav className="grid-cols-3 flex flex-rows">
-        <article>
-          <Link to="/">Home</Link>
-        </article>
-        <article>
-          <Link to="/about">About</Link>
-        </article>
-      </nav>
-      <section className="grid-cols-9">
-        <Routes>
-          <Route path="/" element={<p>Home</p>} />
-          <Route path="about" element={<p>About</p>} />
-        </Routes>
-      </section>
-    </div>
+      <div className="grid grid-cols-12 grid-rows-1 gap-4 h-full">
+        <Navigation>
+          <NavigationLink to="/">Home</NavigationLink>
+          <NavigationLink to="/one">IAM</NavigationLink>
+          <NavigationLink to="/two">Routing</NavigationLink>
+        </Navigation>
+        <section className="col-span-9 p-4">
+          <Routes>
+            <Route path="/:id" element={<Page />} />
+          </Routes>
+        </section>
+      </div>
+    </main>
   );
 }
 
