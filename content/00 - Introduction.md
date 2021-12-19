@@ -16,4 +16,4 @@ We're going to be looking at getting a single-page application…
 We're not going to cover the following:
 
 - **Servers**. This course is focused on the distributiuon of your client-side application.
-- **Serverless**. [Scott Moss](https://frontendmasters.com/teachers/scott-moss/) has \[an amazing workshop\]\[lamba\] that you should totally go watch—after this one, of course.
+- **Serverless**. [Scott Moss](https://frontendmasters.com/teachers/scott-moss/) has [an amazing workshop](https://frontendmasters.com/courses/serverless-aws/) that you should totally go watch—after this one, of course.
