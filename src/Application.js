@@ -18,14 +18,12 @@ function Application() {
           <NavigationLink to="/notes/cheese">Cheese Ipsum</NavigationLink>
           <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
           <NavigationLink to="/notes/office">Office Ipsum</NavigationLink>
-          <NavigationLink to="/notes/office">The Beatles</NavigationLink>
+          <NavigationLink to="/notes/beatles">The Beatles</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
-            <Route path="/notes/:id" element={<Page />} />
-            <Route path="/" element={<p>Select a note.</p>} />
             <Route
-              path="/beatles"
+              path="/notes/beatles"
               element={
                 <div>
                   <img
@@ -36,6 +34,8 @@ function Application() {
               }
             />
           </Routes>
+          <Route path="/notes/:id" element={<Page />} />
+          <Route path="/" element={<p>Select a note.</p>} />
         </section>
       </div>
     </main>
