@@ -28,7 +28,10 @@ function Application() {
               path="/beatles"
               element={
                 <div>
-                  <img src="/beatles.jpg" />
+                  <img
+                    src="/beatles.jpg"
+                    alt="Possibly the Beatles, possibly"
+                  />
                 </div>
               }
             />
