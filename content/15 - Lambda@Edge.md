@@ -57,7 +57,7 @@ You may get a somewhat cryptic error about permissions. Despite the unhelpfulnes
 Implement as a **Viewer Request**.
 
 ```js
-exports.handler = (event, context, callback) => {
+exports.handler = async (event, context) => {
   const request = event.Records[0].cf.request;
 
   console.log('Before', request.uri);
@@ -68,7 +68,7 @@ exports.handler = (event, context, callback) => {
 
   console.log('After', request.uri);
 
-  callback(null, request);
+  return request;
 };
 ```
 

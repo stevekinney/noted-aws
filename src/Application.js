@@ -18,11 +18,20 @@ function Application() {
           <NavigationLink to="/notes/cheese">Cheese Ipsum</NavigationLink>
           <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
           <NavigationLink to="/notes/office">Office Ipsum</NavigationLink>
+          <NavigationLink to="/notes/office">The Beatles</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
             <Route path="/notes/:id" element={<Page />} />
             <Route path="/" element={<p>Select a note.</p>} />
+            <Route
+              path="/beatles"
+              element={
+                <div>
+                  <img src="/beatles.jpg" />
+                </div>
+              }
+            />
           </Routes>
         </section>
       </div>

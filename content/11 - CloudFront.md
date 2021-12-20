@@ -1,6 +1,10 @@
 # CloudFront
 
+![](Attachments/cloudfront-model.png)
+
 As my friend, Steven, likes to say CloudFront puts the “eventual” in eventual consistency.
+
+![](Attachments/cloudfront-map.png)
 
 Everything in CloudFront takes a while, so we’re going to just set it up now and then we’ll talk about it while it’s cooking.
 
@@ -48,7 +52,7 @@ We're now going to bring in our ability to support client-side routing.
 - Set **Response page path** to `index.html`.
 - Select **200: OK** for our **HTTP Response code**.
 
-![Screen Shot 2021-12-11 at 5.01.56 PM.png](Attachments/Screen%20Shot%202021-12-11%20at%205.01.56%20PM.png)
+![Custom Error Response](Attachments/custom-error-response.png)
 
 To be super clear, this creates an opposite version of the problem we had before. Now, everything is good—even if the URL is invalid. We're still walking down the road of getting this right, but we're slowly improving. Emphasis on the word "slowly."
 
